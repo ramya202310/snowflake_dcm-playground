@@ -10,7 +10,7 @@ DEFINE TABLE PLAYGROUND{{env_suffix}}.RAW.ORDERS (
     ORDER_ID    NUMBER,
     CUSTOMER_ID NUMBER,
     ORDER_DATE  DATE,
-    STATUS   VARCHAR,
-    AMOUNT      NUMBER(12,2)
+    AMOUNT      NUMBER(12,2),
+      STATUS   VARCHAR
 )
 COMMENT = 'Order transactions';
