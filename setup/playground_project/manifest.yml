@@ -4,7 +4,7 @@ default_target: DEV
 
 targets:
   DEV:
-    account_identifier: MYORG-BNWAAUV-VO63399       
+    account_identifier: BNWAAUV-VO63399       
     project_name: DCM_RS.PROJECTS.PLAYGROUND_DEV
     project_owner: DCM_DEPLOYER
     templating_config: DEV
