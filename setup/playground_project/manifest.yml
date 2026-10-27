@@ -1,0 +1,19 @@
+manifest_version: 2
+type: DCM_PROJECT
+default_target: DEV
+
+targets:
+  DEV:
+    account_identifier: MYORG-BNWAAUV-VO63399       
+    project_name: DCM_RS.PROJECTS.PLAYGROUND_DEV
+    project_owner: DCM_DEVELOPER
+    templating_config: DEV
+
+templating:
+  defaults:
+    wh_size: "X-SMALL"
+
+  configurations:
+    DEV:
+      env_suffix: "_DEV"
+      data_retention_days: 1
