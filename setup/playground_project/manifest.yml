@@ -6,7 +6,7 @@ targets:
   DEV:
     account_identifier: MYORG-BNWAAUV-VO63399       
     project_name: DCM_RS.PROJECTS.PLAYGROUND_DEV
-    project_owner: DCM_DEVELOPER
+    project_owner: DCM_DEPLOYER
     templating_config: DEV
 
 templating:
